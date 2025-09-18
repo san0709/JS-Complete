@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    font-family: Cambria;
+    background-color: rgb(232, 190, 190);
+    color: rgb(84, 6, 6);
+    font-size: 1.5em;
+}
+#numberElement{
+    font-size: 1.5em;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+button {
+    background-color: rgb(134, 73, 73);
+    font-size: 1em;
+    color: white;
+    font-family: Cambria;
+    padding: 8px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(84, 6, 6);
+}
