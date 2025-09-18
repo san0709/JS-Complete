@@ -1,0 +1,21 @@
+let x = 1;
+let y = 2;
+let z = 3;
+let a = 2.25662;
+let b = 1466.5;
+let c = 100.99;
+let d = -55;
+
+console.log(Math.min(x, y, z));
+console.log(Math.max(x, y, z));
+console.log(Math.sin(x));
+console.log(Math.cos(x));
+console.log(Math.tan(x));
+console.log(Math.pow(y, 3));
+console.log(Math.ceil(a));
+console.log(Math.floor(b));
+console.log(Math.trunc(c));
+console.log(Math.log(y));
+console.log(Math.abs(d));
+console.log(Math.sqrt(y));
+console.log(Math.sign(a));
